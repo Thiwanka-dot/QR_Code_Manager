@@ -1,0 +1,49 @@
+.con,
+.con2{
+    padding-bottom: 0.5rem;
+    background: rgb(252, 158, 252);
+}
+
+input{
+    border: 2px solid #000;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.qrBtns .stop{
+    background: red;
+}
+
+.con2 input{
+    display: none;
+}
+
+.con2 .qrBtns{
+    margin-top: 0.5rem;
+}
+
+.qrBtns{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.5rem 0;
+    width: 100%;
+}
+
+.qrBtns button{
+    padding: 10px 20px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    background: blue;
+    color: white;
+}
+
+.QRdiv{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}

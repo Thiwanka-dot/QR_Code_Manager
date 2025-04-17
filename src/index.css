@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;  
+}
+
+.container{
+  padding: 4rem 0;
+  height: 100vh;
+  margin-bottom: 4rem;
+}
+
+h1{
+  text-align: center;
+  font-size: 3rem;
+  padding-bottom: 2rem;
+}
+
+
+.qrDivide{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem;
+  border: 1px solid #000;
+  border-radius: 15px;
+  margin: 2rem;
+  padding: 1rem;
+  background: rgb(252, 158, 252);
+}

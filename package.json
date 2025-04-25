@@ -1,5 +1,6 @@
 {
   "name": "qrcode",
+  "homepage": "https://thiwanka-dot.github.io/QR_Code_Manager/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
